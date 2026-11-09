@@ -1,0 +1,10 @@
+[project]
+name = "pipeline-medallion-duckdb"
+version = "0.1.0"
+description = "Pipeline de dados em camadas bronze/silver/gold com DuckDB e SQL."
+requires-python = ">=3.10"
+dependencies = ["duckdb>=1.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
